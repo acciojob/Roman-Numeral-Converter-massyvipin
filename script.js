@@ -15,7 +15,7 @@ function convertToRoman(num) {
     ['I', 1],
     ];
 
-  const result ='';
+  let result ='';
 	for (let[symbol,value] of romanSym) {
 		while (num>=value) {
 			result += symbol;
